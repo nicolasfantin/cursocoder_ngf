@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Salud, Bienestar, Digital, Actividad fisica, Vida, Calidad de vida, Conocimiento, Mente, Ayuda, Problema de Salud, Estres, Incestigacion, Enfermedad, Curar, Consejos, Cursos, ">
+    <meta name="description" content="">
+    <title>Mas Productos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/1cf213a4b0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/multimedia.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Inicio</a>
+                    </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="ingreso.html">Ingresar</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="registro.html">Registrarse</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Lenguaje
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">English</a></li>
+                      <li><a class="dropdown-item" href="#">Español</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <div><img class="logoPrincipal" src="../media/WhatsApp_Image_2021-10-01_at_11.15.41-removebg.png" alt="Logo de Salud y Bienestar Digital"></div>
+    </header>
+    <hr>
+        <div class="container">
+            <div class="row">
+                <!-- Elementos generados a partir del JSON -->
+                <main id="items" class="col-sm-8 row" ></main>
+                <!-- Carrito -->
+                
+            </div>
+        </div>
+        <div id="imagenes">
+                <img src="https://www.amarilloverdeyazul.com/wp-content/uploads/2014/11/recoge-cables-botella-2-216x300.jpg" alt="" style="width: 300px; height: 300px;">
+                <img src="https://osterla.vteximg.com.br/arquivos/ids/158131-700-700/BLSTBPST_ATF-1.jpg?v=637523728203970000/" alt="" style="width: 300px; height: 300px;">
+                <img src="https://www.segutecnica.com/images/000000000000211124918full-botiquin-primeros-auxilios-numero-10-segutecnica.png" alt="" style="width: 300; height: 300px;">
+                <img src="https://static3.mujerhoy.com/www/multimedia/202109/30/media/cortadas/perfumes-aroma-floral-1-kC8B--900x900@MujerHoy.jpg" alt="" style="width: 300px; height: 300px;">
+        </div>
+        <div>
+            <button id="botonOcultar" class="btn btn-danger" style="background-color: blue; border-color: blue; margin: 10px 0px 10px 50px;">Ocultar Productos</button>
+            <button id="botonMostrar" class="btn btn-danger" style="background-color: blue; border-color: blue; margin: 10px 0px 10px 10px;">Mostrar Productos</button>
+        </div>
+        <aside class="col-sm-4">
+            <h2>Carrito</h2>
+            <!-- Elementos del carrito -->
+            <ul id="carrito" class="list-group"></ul>
+            <hr>
+            <!-- Precio total -->
+            <p class="text-right">Total: <span id="total"></span>&euro;</p>
+            <button id="boton-vaciar" class="btn btn-danger">Vaciar</button>
+            <button id="boton-comprar" class="btn btn-danger" style="background-color: rgb(38, 102, 48); border-color: rgb(38, 102, 48);">Comprar</button>
+        </aside>
+    <hr>
+    <footer>        
+        <div class="datoPie datoPie--modificador">
+            <h3 class="datoPie__tituloDatoPie">Bienvenido a Salud y Bienestar Digital!</h3>
+            <p>Aquí encontraras recomendaciones, consejos, ejercicios, memes, recetas, cursos, libros y muchas herramientas que te servirán como ayuda para llevar a cabo una vida mas sana y lograr el bienestar que uno busca... 𝘼𝙮𝙪𝙙𝙖𝙣𝙙𝙤 𝙖 𝙡𝙖 𝙘𝙤𝙢𝙪𝙣𝙞𝙙𝙖𝙙 𝙙𝙚𝙨𝙙𝙚 𝟮𝟬𝟭𝟴. <br>
+            </p>
+        </div>
+        <div>
+            <table class="asideRedes" border="0">
+                <caption><a href="/pages/contacto.html">Redes Sociales</a></caption>
+                <tbody>
+                    <tr>
+                        <td>
+                            <a href="https://www.facebook.com/Salud-Bienestar-Digital-353007722406604/" target="_blank">
+                            <i class="fab fa-facebook"></i>
+                            </a>
+                        <td>
+                            <a href="https://www.youtube.com/saludybienestar.digital/"target="_blank">
+                            <i class="fab fa-youtube"></i>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="https://www.instagram.com/saludybienestar.digital" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                            </a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <h3 class="tituloInfo">Información</h3>
+            <div class="infoPie">
+            <ul>
+                <li><a href="#MenuArriba">Inicio</a></li>
+                <li><a href="">Articulos</a></li>
+                <li><a href="">Ayuda</a></li>
+            </ul>
+                <p class="copy">Copyright 1999-2021</p>
+            <ul>
+                <li><a href="">Terminso de uso</a></li>
+                <li><a href="">Política y privacidad</a></li>
+                <li><a href="">Autores</a></li>
+            </ul>
+            </div>
+        </div>
+        <div class="emailPie">
+            <table border="2">
+                <tr>
+                    <td>CONTACTO: saludybienestar.digital@hotmail.com</td> 
+                </tr>
+            </table>
+            <h3>Email Oficial de la Comunidad</h3>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="../globals.js"></script>
+    <script src="../functions.js"></script>
+    <script src="../app.js"></script>
+</body>
+</html>
